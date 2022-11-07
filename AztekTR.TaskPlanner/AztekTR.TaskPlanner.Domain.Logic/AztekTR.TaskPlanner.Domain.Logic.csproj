@@ -1,12 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AztekTR.TaskPlanner.Domain.Logic\AztekTR.TaskPlanner.Domain.Logic.csproj" />
     <ProjectReference Include="..\AztekTR.TaskPlanner.Domain.Models\AztekTR.TaskPlanner.Domain.Models.csproj" />
   </ItemGroup>
 

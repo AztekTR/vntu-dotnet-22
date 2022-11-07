@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "AztekTR.TaskPlanner.Domain.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AztekTR.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AztekTR.TaskPlanner.Domain.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AztekTR.TaskPlanner.Domain.Logic.dll": {}
+        }
+      },
+      "AztekTR.TaskPlanner.Domain.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AztekTR.TaskPlanner.Domain.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AztekTR.TaskPlanner.Domain.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AztekTR.TaskPlanner.Domain.Logic/1.0.0": {
+      "type": "project",
+      "path": "../AztekTR.TaskPlanner.Domain.Logic/AztekTR.TaskPlanner.Domain.Logic.csproj",
+      "msbuildProject": "../AztekTR.TaskPlanner.Domain.Logic/AztekTR.TaskPlanner.Domain.Logic.csproj"
+    },
+    "AztekTR.TaskPlanner.Domain.Models/1.0.0": {
+      "type": "project",
+      "path": "../AztekTR.TaskPlanner.Domain.Models/AztekTR.TaskPlanner.Domain.Models.csproj",
+      "msbuildProject": "../AztekTR.TaskPlanner.Domain.Models/AztekTR.TaskPlanner.Domain.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "AztekTR.TaskPlanner.Domain.Logic >= 1.0.0",
+      "AztekTR.TaskPlanner.Domain.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Саша\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Саша\\source\\repos\\vntu-dotnet-22\\AztekTR.TaskPlanner\\AztekTR.TaskPlanner.Domain.Logic\\AztekTR.TaskPlanner.Domain.Logic.csproj": {
+              "projectPath": "C:\\Users\\Саша\\source\\repos\\vntu-dotnet-22\\AztekTR.TaskPlanner\\AztekTR.TaskPlanner.Domain.Logic\\AztekTR.TaskPlanner.Domain.Logic.csproj"
+            },
+            "C:\\Users\\Саша\\source\\repos\\vntu-dotnet-22\\AztekTR.TaskPlanner\\AztekTR.TaskPlanner.Domain.Models\\AztekTR.TaskPlanner.Domain.Models.csproj": {
+              "projectPath": "C:\\Users\\Саша\\source\\repos\\vntu-dotnet-22\\AztekTR.TaskPlanner\\AztekTR.TaskPlanner.Domain.Models\\AztekTR.TaskPlanner.Domain.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -11,3 +11,8 @@ C:\Users\Саша\source\repos\vntu-dotnet-22\AztekTR.TaskPlanner\AztekTR.TaskPl
 C:\Users\Саша\source\repos\vntu-dotnet-22\AztekTR.TaskPlanner\AztekTR.TaskPlanner.ConsoleRunner\obj\Debug\netcoreapp3.1\AztekTR.TaskPlanner.ConsoleRunner.dll
 C:\Users\Саша\source\repos\vntu-dotnet-22\AztekTR.TaskPlanner\AztekTR.TaskPlanner.ConsoleRunner\obj\Debug\netcoreapp3.1\AztekTR.TaskPlanner.ConsoleRunner.pdb
 C:\Users\Саша\source\repos\vntu-dotnet-22\AztekTR.TaskPlanner\AztekTR.TaskPlanner.ConsoleRunner\obj\Debug\netcoreapp3.1\AztekTR.TaskPlanner.ConsoleRunner.genruntimeconfig.cache
+C:\Users\Саша\source\repos\vntu-dotnet-22\AztekTR.TaskPlanner\AztekTR.TaskPlanner.ConsoleRunner\bin\Debug\netcoreapp3.1\AztekTR.TaskPlanner.Domain.Logic.dll
+C:\Users\Саша\source\repos\vntu-dotnet-22\AztekTR.TaskPlanner\AztekTR.TaskPlanner.ConsoleRunner\bin\Debug\netcoreapp3.1\AztekTR.TaskPlanner.Domain.Models.dll
+C:\Users\Саша\source\repos\vntu-dotnet-22\AztekTR.TaskPlanner\AztekTR.TaskPlanner.ConsoleRunner\bin\Debug\netcoreapp3.1\AztekTR.TaskPlanner.Domain.Logic.pdb
+C:\Users\Саша\source\repos\vntu-dotnet-22\AztekTR.TaskPlanner\AztekTR.TaskPlanner.ConsoleRunner\bin\Debug\netcoreapp3.1\AztekTR.TaskPlanner.Domain.Models.pdb
+C:\Users\Саша\source\repos\vntu-dotnet-22\AztekTR.TaskPlanner\AztekTR.TaskPlanner.ConsoleRunner\obj\Debug\netcoreapp3.1\AztekTR.TaskPlanner.ConsoleRunner.csproj.CopyComplete
